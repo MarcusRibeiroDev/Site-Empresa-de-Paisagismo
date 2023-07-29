@@ -1,3 +1,83 @@
-.bg-success-personal{
-    background-color: rgba(0, 100, 0, 0.35);
+/*PALETA DE CORES*/
+
+.color1 {color: #00ffab;}
+.color2 {color: #ccff5b;}
+.color3 {color: #002213;}
+.color4 {color: #727875;}
+.color5 {color: #e2e2e2;}
+
+.background-color1 {background-color: #00ffab;}
+.background-color2 {background-color: #ccff5b;}
+.background-color3 {background-color: #002213;}
+.background-color4 {background-color: #727875;}
+.background-color5 {background-color: #e2e2e2;}
+
+*{
+    font-family: "Lato", "sans-serif";
 }
+
+/*NAVBAR*/
+
+#navbar{
+    border-bottom: 3px solid #8f3013;
+}
+
+.navbar-brand i{
+    color: white;
+    font-size: 2em;
+    margin-left: 2em;
+}
+
+#navbar-content{
+    padding: .5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbarToggleExternalContent a:hover{
+    color: wheat;
+}
+
+#navbarToggleExternalContent a{
+    font-size: large;
+    color: white;
+    font-weight: 700;
+}
+
+#navbarToggleExternalContent .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-underline .active{
+    color: wheat;
+}
+
+.bi-list{
+    color: white;
+    font-size: 1.5em;
+}
+
+.navbar-toggler{
+    border-color: white;
+}
+
+/*SLIDERS*/
+
+#carouselExample{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#carouselExample h5{
+    font-size: 22px;
+    font-weight: 700; 
+    text-shadow: black;
+}
+
+.carousel-caption{
+    background-color: #000000c2;
+    border-radius: 10px;
+}
+
