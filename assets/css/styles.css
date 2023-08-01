@@ -1,16 +1,8 @@
 /*PALETA DE CORES*/
 
-.color1 {color: #00ffab;}
-.color2 {color: #ccff5b;}
-.color3 {color: #622a4b;}
-.color4 {color: #727875;}
-.color5 {color: #e2e2e2;}
-
-.background-color1 {background-color: #00ffab;}
-.background-color2 {background-color: #ccff5b;}
 .background-color3 {background-color: #622a4b;}
-.background-color4 {background-color: #727875;}
-.background-color5 {background-color: #e2e2e2;}
+.background-color4 {background-color: #00405d;}
+.background-color5 {background-color: #fcebe4;}
 
 *{
     font-family: "Lato", "sans-serif";
@@ -125,11 +117,29 @@
       bottom: 7em;
     }
   }
+
+  @media (max-width: 375px){
+    #slider .carousel-caption h5 {
+      font-size: 1.6em;
+      text-shadow: #000 2px 3px;
+    }
+    #slider .btn {
+      padding: 0.4em 1.2em;
+      font-size: 0.8em;
+      margin-top: 0.8em;
+    }
+  }
   
   @media (min-width:767px) and (max-width: 991px) {
     #slider .carousel-caption {
         bottom: 8em;
       }
+  }
+
+  @media (max-width: 767px){
+    #slider{
+      margin-bottom: 6em;
+    }
   }
 
   /*MINI BANNERS*/
@@ -140,7 +150,7 @@
 
   .mini-banner{
     padding-top: 1em;
-    font-size: 3em;
+    font-size: 2em;
   }
 
  .card{
@@ -151,4 +161,15 @@
   #mini-banners{
     margin-top: -5em;
   }
+ }
+
+ /*DESTAQUES*/
+
+ #container-highlights img{
+  height: 85%;
+  width: 100%;
+ }
+
+ .container-highlight{
+  height: 100%;
  }
