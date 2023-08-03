@@ -37,7 +37,7 @@
 
 #navbarToggleExternalContent .navbar-nav{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     width: 100%;
 }
 
@@ -171,35 +171,22 @@
  }
 
  .container-highlight{
-  height: 100%;
   position: relative;
+  height: 400px;
  }
 
- #row-highlights{
-  height: 500px;
+ .row-highlights{
+  height: fit-content;
  }
 
-@media (min-width: 769px) and (max-width: 1024px){
-  #row-highlights {
-    height: 400px;
-  }
-}
-
-@media (min-width: 319px) and (max-width: 768px){
-  #row-highlights {
-    height: 350px;
-  }
-}
-
-
-#title-highlights{
+.title-highlights{
   font-size: 2.5em;
   font-weight: 400;
   margin-top: 2em;
   position: relative;
 }
 
-#title-highlights:before{
+.title-highlights:before{
   width: 100px;
   border-bottom: 4px solid #622a4b;
   content: "";
@@ -207,20 +194,20 @@
   bottom: 2em;
 }
 
-#text-highlights{
+.text-highlights{
   font-size: 1.5em;
   font-weight: 400;
 }
 
 @media (max-width: 425px){
-  #title-highlights{
+  .title-highlights{
     font-size: 1.8em;
     font-weight: 400;
     margin-top: 1.6em;
     position: relative;
   }
   
-  #title-highlights:before{
+  .title-highlights:before{
     width: 70px;
     border-bottom: 2px solid #622a4b;
     content: "";
@@ -228,7 +215,7 @@
     bottom: 2em;
   }
   
-  #text-highlights{
+  .text-highlights{
     font-size: 1em;
     font-weight: 400;
   }
@@ -241,18 +228,20 @@
   left: 0;
   right: 0;
   background-color: rgb(255, 255, 255);
-  color: black;
-  font-weight: 700;
-  text-align: center;
+  color: transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  opacity: .6;
+  opacity: .7;
   cursor: pointer;
+  text-align: center;
   transition: 1.5s;
 }
 
 .banner-content:hover{
-  opacity: .3;
+  opacity: .5;
+  color: black;
+  font-weight: 700;
 }
 
+/*INFO*/
