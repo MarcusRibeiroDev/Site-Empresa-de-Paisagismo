@@ -1,15 +1,23 @@
-/*PALETA DE CORES*/
-.background-color3 { background-color: #622a4b; }
-.background-color4 { background-color: #00405d; }
-.background-color5 { background-color: #fcebe4; }
-.background-color6 { background-color: #ccc; }
+/* PALETA DE CORES */
+.background-color3 {
+  background-color: #622a4b;
+}
+.background-color4 {
+  background-color: #00405d;
+}
+.background-color5 {
+  background-color: #fcebe4;
+}
+.background-color6 {
+  background-color: #ccc;
+}
 
 * {
   font-family: "Lato", "sans-serif";
   box-sizing: 0;
 }
 
-/*NAVBAR*/
+/* NAVBAR */
 #navbar {
   border-bottom: 1px solid #ffd6c6;
 }
@@ -58,6 +66,13 @@
   border-color: white;
 }
 
+#navbar i,
+#navbar span {
+  font-size: 1.6em;
+  color: #fff;
+  font-weight: 700;
+}
+
 @media (max-width: 426px) {
   .navbar-brand i {
     margin-left: 0;
@@ -66,9 +81,16 @@
   #navbarToggleExternalContent ul {
     margin-top: 1.6em;
   }
+
+  #navbar i,
+  #navbar span {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 700;
+  }
 }
 
-/*SLIDERS*/
+/* SLIDERS */
 #slider {
   margin-top: 8em;
   margin-bottom: 1em;
@@ -155,7 +177,7 @@
   }
 }
 
-/*MINI BANNERS*/
+/* MINI BANNERS */
 #mini-banners {
   margin-bottom: 2em;
 }
@@ -175,7 +197,7 @@
   }
 }
 
-/*DESTAQUES*/
+/* DESTAQUES */
 #container-highlights img {
   height: 100%;
   width: 100%;
@@ -255,7 +277,7 @@
   font-weight: 700;
 }
 
-/*INFO*/
+/* INFO */
 #content-info-datas {
   display: flex;
   align-items: center;
@@ -300,23 +322,24 @@
   }
 }
 
-/*FOOTER*/
+/* FOOTER */
 
-#footer{
+#footer {
   background-color: #000;
 }
 
-#top-footer{
+#top-footer {
   padding-top: 2em;
 }
 
-#logo-footer i, #logo-footer span{
+#logo-footer i,
+#logo-footer span {
   color: #ffffff;
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: 700;
 }
 
-#icons-footer i{
+#icons-footer i {
   color: white;
   font-size: 1.8em;
   padding: 0.5em;
@@ -336,5 +359,38 @@
   color: #ccc;
 }
 
+#part1-footer input {
+  margin-bottom: 1em;
+  padding: 0.4em;
+  border-radius: 0.2em;
+}
 
+#part1-footer button {
+  border-radius: 0.2em;
+  font-weight: 400;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
 
+#part1-footer button:hover {
+  background-color: #e3e3e3;
+}
+
+#bottom-footer {
+  padding-bottom: 2em;
+}
+
+@media (max-width: 426px) {
+  #logo-footer i,
+  #logo-footer span {
+    color: #ffffff;
+    font-size: 1.4em;
+    font-weight: 700;
+  }
+
+  #icons-footer i {
+    color: white;
+    font-size: 1.4em;
+    padding: 0.2em;
+  }
+}
